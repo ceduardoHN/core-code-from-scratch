@@ -1,4 +1,4 @@
-1. Pedir el numero que se quiere verificar si es par o impar (number).
+1. Pedir el numero que se quiere verificar (number).
 2. Probar si el numero es divisible por 2 (o sea, que number/2 tenga residuo 0), o en otras palabras number%2.
 3. Si el numero es divisible por 2 entonces: <br>
    3.1. Imprimir: El numero es par.
