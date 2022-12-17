@@ -6,5 +6,5 @@
 
 ## Jueves
 1. [Numbers](/ejercicios/numbers.md)
-2. [Date Of Birth](/ejercicios/dateOfBirth.md)
+2. [Date-Of-Birth](/ejercicios/dateOfBirth.md)
 3. [Treasures](/ejercicios/treasures.md)
