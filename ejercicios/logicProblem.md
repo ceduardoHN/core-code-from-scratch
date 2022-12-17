@@ -1,5 +1,5 @@
 Se podria resolver el ejercicio asumiendo que los estudiantes estan diciendo la verdad.<br>
-Partiendo de que el profesor sabe que el estudiante que estudio dira la verdad y el que no estudio mentira, lo siguiente:<br>
+Partiendo de que el profesor sabe que el estudiante que estudio dira la verdad y el que no estudio mentira, lo siguiente:
 1. Si Alice dice la verdad, entonces nadie estudio, pero como dice la verdad significa que estudio. Esto es una contradiccion.
 2. Si Bob dice la verdad, entonces una persona estudio, y como dice la verdad entonces estaria hablando de si mismo, que el si estudio.
 3. Si Charlie dice la verdad, entonces 2 personas estudiaron, o sea que el y otra persona estudiaron.
