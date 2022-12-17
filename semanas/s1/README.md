@@ -1,7 +1,7 @@
 # Semana 1
 ## Miercoles
 1. [Pizza](/ejercicios/pizza.md)
-[2. Hot-N-Cold](/ejercicios/hotNCold.md)
+2. [Hot-N-Cold](/ejercicios/hotNCold.md)
 3. [Geometry](/ejercicios/geometry.md)
 
 ## Jueves
