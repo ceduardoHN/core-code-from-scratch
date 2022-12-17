@@ -1,5 +1,5 @@
 # Semana 1
 ## Miercoles
-1. [Pizza](./ejercicios/pizza)
+1. [Pizza](/ejercicios/pizza)
 
 ## Jueves
