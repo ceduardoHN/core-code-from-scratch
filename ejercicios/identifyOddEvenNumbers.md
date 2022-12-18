@@ -4,9 +4,9 @@ Algoritmo identifyOddEvenNumbers
 	Leer num;
 	x=num%2;
 	Si x==0 Entonces
-		Imprimir "Numero: ",num," es par.";
+		Imprimir "Numero: ",ConvertirATexto(num)," es par.";
 	SiNo
-		Imprimir "Numero: ",num," es impar.";
+		Imprimir "Numero: ",ConvertirATexto(num)," es impar.";
 	FinSi
 FinAlgoritmo
 ```
