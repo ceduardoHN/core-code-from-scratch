@@ -1,4 +1,3 @@
-# core-code-from-scratch
 # Repositorio de Eduardo
 ## Semanas
 1. [Semana 1](./semanas/s1)
