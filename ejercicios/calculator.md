@@ -40,4 +40,4 @@ Multiplicacion: <br>
 Division: <br>
 ![imagen](https://user-images.githubusercontent.com/116420679/209032186-4982d603-e91f-45ed-92de-3d1092cc0950.png) <br>
 ERROR: <br>
-![imagen](https://user-images.githubusercontent.com/116420679/209032233-b774c59e-abed-40f5-b591-cff117d25981.png) <br>
+![imagen](https://user-images.githubusercontent.com/116420679/209032233-b774c59e-abed-40f5-b591-cff117d25981.png)
