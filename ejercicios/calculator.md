@@ -13,11 +13,11 @@ Algoritmo simpleCalculator
 		Si operacion=="+" Entonces
 			suma=n1+n2;
 			Imprimir "Resultado: ",ConvertirATexto(suma);
-		Fin Si
+		FinSi
 		Si operacion=="-" Entonces
 			resta=n1-n2;
 			Imprimir "Resultado: ",ConvertirATexto(resta);
-		Fin Si
+		FinSi
 		Si operacion=="*" Entonces
 			mul=n1*n2;
 			Imprimir "Resultado: ",ConvertirATexto(mul);
