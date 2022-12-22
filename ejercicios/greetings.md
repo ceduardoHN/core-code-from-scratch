@@ -29,4 +29,5 @@ Algoritmo greetings
 	Imprimir "Cantidad de Saludos Realizados: ",ConvertirATexto(numSaludos);
 FinAlgoritmo
 ```
-![imagen](https://user-images.githubusercontent.com/116420679/209074910-e5028f30-83a1-4f0f-b1f9-0cccc053d57f.png)
+![imagen](https://user-images.githubusercontent.com/116420679/209076360-8512681f-8bc8-4d5d-9a20-3977f654bda6.png)
+
