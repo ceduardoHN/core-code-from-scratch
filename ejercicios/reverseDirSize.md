@@ -3,11 +3,11 @@ Funcion resultado <- ReverseDirectionAndSize(cadenaTexto)
 	Para i <- Longitud(cadenaTexto) Hasta 0 Con Paso -1 Hacer
 		letra = Subcadena(cadenaTexto,i,i);
 		SI letra = Mayusculas(letra) Entonces
-			letra = Minusculas(letra)
+			letra = Minusculas(letra);
 		SiNo
-			letra = Mayusculas(letra)
+			letra = Mayusculas(letra);
 		FinSi
-		resultado = Concatenar(resultado,letra)
+		resultado = Concatenar(resultado,letra);
 	FinPara
 FinFuncion
 
