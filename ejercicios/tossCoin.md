@@ -14,7 +14,7 @@ Algoritmo tossCoin
 	
 	Si amountPlayer1<=0 Y amountPlayer2<=0 Entonces
 		Imprimir "Game Canceled";
-		bandera=False;
+		bandera=Falso;
 	SiNo
 		Si amountPlayer1<=0 Entonces
 			Imprimir "Player wins: ",Mayusculas(namePlayer2)," amount won: 0";
