@@ -1,5 +1,5 @@
 # Semana 6
-## Lunes
+## Martes
 1. Variables: ```let firstname="Lata";```
 [Enlace](https://www.jshero.net/en/koans/var.html)
 2. What is x?: ```"Geeta"```
@@ -12,7 +12,7 @@ let tree="maple";```
 5. Assign Variables: ```"Hardy"```
 [Enlace](https://www.jshero.net/en/koans/jsx03.html)
 
-## Martes
+## Miercoles
 1. Functions:
 ```
 function hello(){
@@ -49,7 +49,5 @@ function echo(p){
 }
 ```
 [Enlace](https://www.jshero.net/en/koans/parameter.html)
-
-## Miercoles
 
 ## Jueves
