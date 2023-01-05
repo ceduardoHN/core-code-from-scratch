@@ -4,8 +4,11 @@
 [Enlace](https://www.jshero.net/en/koans/var.html)
 2. What is x?: ```"Geeta"```
 [Enlace](https://www.jshero.net/en/koans/jsx01.html)
-3. Several Variables: ```let flower="rose";
-let tree="maple";```
+3. Several Variables: 
+```
+let flower="rose";
+let tree="maple";
+```
 [Enlace](https://www.jshero.net/en/koans/var2.html)
 4. Reassignment: ```"Toe"```
 [Enlace](https://www.jshero.net/en/koans/jsx02.html)
