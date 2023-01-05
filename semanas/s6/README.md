@@ -21,13 +21,34 @@ function hello(){
 ```
 [Enlace](https://www.jshero.net/en/koans/function.html)
 2. Multiple Functions:
-[Enlace]()
+```
+function a(){
+   return "Hello a!";
+}
+
+function b(){
+   return "Hello b!";
+}
+```
+[Enlace](https://www.jshero.net/en/koans/function2.html)
 3. Function calls:
-[Enlace]()
-4. What is x? (Function version)
-[Enlace]()
+```
+function greet(){
+   return "Haydo!";
+}
+
+let salutation=greet();
+```
+[Enlace](https://www.jshero.net/en/koans/functioncall.html)
+4. What is x? (Function version): ```"Hi!"```
+[Enlace](https://www.jshero.net/en/koans/jsx04.html)
 5. Parameters:
-[Enlace]()
+```
+function echo(p){
+   return p;
+}
+```
+[Enlace](https://www.jshero.net/en/koans/parameter.html)
 
 ## Miercoles
 
