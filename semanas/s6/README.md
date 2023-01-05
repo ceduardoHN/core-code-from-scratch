@@ -13,6 +13,21 @@ let tree="maple";```
 [Enlace](https://www.jshero.net/en/koans/jsx03.html)
 
 ## Martes
+1. Functions:
+```
+function hello(){
+   return "Hello world!";
+}
+```
+[Enlace](https://www.jshero.net/en/koans/function.html)
+2. Multiple Functions:
+[Enlace]()
+3. Function calls:
+[Enlace]()
+4. What is x? (Function version)
+[Enlace]()
+5. Parameters:
+[Enlace]()
 
 ## Miercoles
 
