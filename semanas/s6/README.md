@@ -44,3 +44,38 @@ function echo(p){
 ```
 
 ## Jueves
+1. [Strings](https://www.jshero.net/en/koans/string.html):
+```
+function greet(name){
+   return "Hello "+name+"!";
+}
+```
+2. [String: length](https://www.jshero.net/en/koans/stringlength.html): 
+```
+function length(string){
+   let result=string.length;
+   return result;
+}
+```
+3. [String: toUpperCase()](https://www.jshero.net/en/koans/stringupper.html): 
+```
+function toCase(string){
+   let stringInLC=string.toLowerCase();
+   let stringInUC=string.toUpperCase();
+   return stringInLC+"-"+stringInUC;
+}
+```
+4. [String: charAt()](https://www.jshero.net/en/koans/stringcharat.html): 
+```
+function shortcut(string1,string2){
+   return string1.charAt(0)+string2.charAt(0);
+}
+```
+5. [String: indexOf()](https://www.jshero.net/en/koans/stringindexof.html): 
+```
+function indexOfIgnoreCase(string1,string2){
+   let string1L=string1.toLowerCase();
+   let string2L=string2.toLowerCase();
+   return string1L .indexOf(string2L);
+}
+```
