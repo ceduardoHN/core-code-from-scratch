@@ -1,29 +1,23 @@
 # Semana 6
 ## Martes
-1. Variables: ```let firstname="Lata";```
-[Enlace](https://www.jshero.net/en/koans/var.html)
-2. What is x?: ```"Geeta"```
-[Enlace](https://www.jshero.net/en/koans/jsx01.html)
-3. Several Variables: 
+1. [Variables](https://www.jshero.net/en/koans/var.html): ```let firstname="Lata";```
+2. [What is x?](https://www.jshero.net/en/koans/jsx01.html): ```"Geeta"```
+3. [Several Variables](https://www.jshero.net/en/koans/var2.html): 
 ```
 let flower="rose";
 let tree="maple";
 ```
-[Enlace](https://www.jshero.net/en/koans/var2.html)
-4. Reassignment: ```"Toe"```
-[Enlace](https://www.jshero.net/en/koans/jsx02.html)
-5. Assign Variables: ```"Hardy"```
-[Enlace](https://www.jshero.net/en/koans/jsx03.html)
+4. [Reassignment](https://www.jshero.net/en/koans/jsx02.html): ```"Toe"```
+5. [Assign Variables](https://www.jshero.net/en/koans/jsx03.html): ```"Hardy"```
 
 ## Miercoles
-1. Functions:
+1. [Functions](https://www.jshero.net/en/koans/function.html):
 ```
 function hello(){
    return "Hello world!";
 }
 ```
-[Enlace](https://www.jshero.net/en/koans/function.html)
-2. Multiple Functions:
+2. [Multiple Functions](https://www.jshero.net/en/koans/function2.html):
 ```
 function a(){
    return "Hello a!";
@@ -33,8 +27,7 @@ function b(){
    return "Hello b!";
 }
 ```
-[Enlace](https://www.jshero.net/en/koans/function2.html)
-3. Function calls:
+3. [Function calls](https://www.jshero.net/en/koans/functioncall.html):
 ```
 function greet(){
    return "Haydo!";
@@ -42,15 +35,12 @@ function greet(){
 
 let salutation=greet();
 ```
-[Enlace](https://www.jshero.net/en/koans/functioncall.html)
-4. What is x? (Function version): ```"Hi!"```
-[Enlace](https://www.jshero.net/en/koans/jsx04.html)
-5. Parameters:
+4. [What is x?](https://www.jshero.net/en/koans/jsx04.html) (Function version): ```"Hi!"```
+5. [Parameters](https://www.jshero.net/en/koans/parameter.html):
 ```
 function echo(p){
    return p;
 }
 ```
-[Enlace](https://www.jshero.net/en/koans/parameter.html)
 
 ## Jueves
