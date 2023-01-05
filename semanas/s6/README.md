@@ -12,7 +12,6 @@ let tree="maple";```
 5. Assign Variables: ```"Hardy"```
 [Enlace](https://www.jshero.net/en/koans/jsx03.html)
 
-
 ## Martes
 
 ## Miercoles
