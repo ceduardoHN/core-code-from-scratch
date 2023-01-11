@@ -71,5 +71,12 @@ var rooms = {
 ```
 
 ## Miercoles
+1. [Count Strings in Objects](): ``````
+2. [Extending JavaScript Objects: Get First & Last Array Element](): ``````
+3. [Object Oriented Piracy](): ``````
 
 ## Jueves
+1. [Convert a String to a Number!](): ``````
+2. [Convert a Number to Reversed Arrar of Digits](): ``````
+3. [Truthy and Falsy](): ``````
+4. [Training JS #4: Basic Data types--Array](): ``````
