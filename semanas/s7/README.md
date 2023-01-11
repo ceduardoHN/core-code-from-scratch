@@ -36,6 +36,21 @@ function nand(boolean1,boolean2){
 ```
 
 ## Martes
+1. [Objects](https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript): 
+```
+function animal(obj){
+  let result="This "+obj.color+" "+obj.name+" has "+obj.legs+" legs.";
+  return result;
+}
+```
+2. [Return to Sanity](https://www.codewars.com/kata/514a7ac1a33775cbb500001e/train/javascript): 
+```
+function mystery() {
+  var results = { sanity: "Hello" };
+  return results;
+}
+```
+3. [Object Syntax Debug](): ``````
 
 ## Miercoles
 
