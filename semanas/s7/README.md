@@ -67,7 +67,7 @@ var rooms = {
       table: "On the table there is an unopened bottle of water"
     }
   }
-}
+};
 ```
 
 ## Miercoles
