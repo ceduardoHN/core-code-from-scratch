@@ -71,9 +71,42 @@ var rooms = {
 ```
 
 ## Miercoles
-1. [Count Strings in Objects](): ``````
-2. [Extending JavaScript Objects: Get First & Last Array Element](): ``````
-3. [Object Oriented Piracy](): ``````
+1. [Count Strings in Objects](https://www.codewars.com/kata/565b3542af398bfb50000003/train/javascript): 
+```
+function strCount(obj){
+  let count=0;
+  for(let key in obj){
+    if(typeof obj[key]=="string"){
+      count++;
+    }
+    if(typeof obj[key]=="object"){
+      count+=strCount(obj[key]);
+    }
+  } 
+  return count;
+}
+```
+2. [Extending JavaScript Objects: Get First & Last Array Element](https://www.codewars.com/kata/581351c40d8f13bc450008b8/train/javascript): 
+```
+Array.prototype.first=function(){
+  return this[0];
+};
+Array.prototype.last=function(){
+  return this[this.length-1];
+};
+```
+3. [Object Oriented Piracy](https://www.codewars.com/kata/54fe05c4762e2e3047000add/train/javascript): 
+```
+function Ship(draft,crew) {
+  this.draft = draft;
+  this.crew = crew;
+  
+  this.isWorthIt=function(){
+    return (this.draft-this.crew*1.5)>20;
+  };
+}
+
+```
 
 ## Jueves
 1. [Convert a String to a Number!](): ``````
