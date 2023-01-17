@@ -109,7 +109,43 @@ function Ship(draft,crew) {
 ```
 
 ## Jueves
-1. [Convert a String to a Number!](): ``````
-2. [Convert a Number to Reversed Arrar of Digits](): ``````
-3. [Truthy and Falsy](): ``````
-4. [Training JS #4: Basic Data types--Array](): ``````
+1. [Convert a String to a Number!](https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript): 
+```
+const stringToNumber = function(str){
+  let number=parseInt(str);
+  return number;
+}
+```
+2. [Convert a Number to Reversed Arrar of Digits](https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript): 
+```
+function digitize(n) {
+  let result=String(n).split("").reverse().map(Number);
+  return result;
+}
+```
+3. [Truthy and Falsy](https://www.codewars.com/kata/595c2988d946a13298000157/train/javascript): 
+```
+const truthy = [-3.14,true,"Eduardo",{},"5"];
+const falsy = [0,false,null,undefined,""];
+```
+4. [Training JS #4: Basic Data types--Array](https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript): 
+```
+function getLength(arr){
+  return arr.length;
+}
+function getFirst(arr){
+  return arr[0];
+}
+function getLast(arr){
+  return arr[arr.length-1];
+}
+function pushElement(arr){
+  var el=1;
+  arr.push(el);
+  return arr;
+}
+function popElement(arr){
+  arr.pop();
+  return arr;
+}
+```
