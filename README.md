@@ -7,3 +7,4 @@
 5. [Semana 5](./semanas/s5)
 6. [Semana 6](./semanas/s6)
 7. [Semana 7](./semanas/s7)
+8. [Semana 8](./semanas/s8)
