@@ -1,6 +1,6 @@
 # Semana 7
 ## Lunes
-1. [Training JS #7: if..else and ternary operator](https://www.codewars.com/kata/57202aefe8d6c514300001fd/train/javascript): 
+1. [Training JS #7: if..else and ternary operator](): 
 ```
 function saleHotdogs(n){
   if(n<5){
@@ -17,7 +17,7 @@ function saleHotdogs(n){
   }
 }
 ```
-2. [Training JS #8: conditional statement--switch](https://www.codewars.com/kata/572059afc2f4612825000d8a/train/javascript): 
+2. [Training JS #8: conditional statement--switch](): 
 ```
 function howManydays(month){
   var days;
@@ -79,14 +79,14 @@ function calculate(num1, operation, num2) {
 ```
 
 ## Martes
-1. [Even or odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript): 
+1. [Even or odd](): 
 ```
 function evenOrOdd(number) {
   if(number%2===0) return "Even";
   return "Odd";
 }
 ```
-2. [A wolf in sheep's clothing](https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript): 
+2. [A wolf in sheep's clothing](): 
 ```
 function warnTheSheep(queue) {
   let wolfPos=queue.indexOf("wolf");
@@ -97,7 +97,7 @@ function warnTheSheep(queue) {
   return "Oi! Sheep number "+ sheepPos +"! You are about to be eaten by a wolf!";  
 }
 ```
-3. [Decode the morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e/train/javascript): 
+3. [Decode the morse code](): 
 ```
 let decodeMorse=function(morseCode){
   let phrase=[];
@@ -115,7 +115,7 @@ let decodeMorse=function(morseCode){
 ```
 
 ## Miercoles
-1. [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript): 
+1. [Who likes it?](): 
 ```
 function likes(names) {
   let result="";
@@ -136,7 +136,7 @@ function likes(names) {
   return result;
 }
 ```
-2. [Bit counting](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript): 
+2. [Bit counting](): 
 ```
 var countBits = function(n) {
   let binaryNum=n.toString(2);
