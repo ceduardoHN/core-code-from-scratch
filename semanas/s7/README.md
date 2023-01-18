@@ -36,21 +36,21 @@ function nand(boolean1,boolean2){
 ```
 
 ## Martes
-1. [Objects](https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript): 
+1. [Objects](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function animal(obj){
   let result="This "+obj.color+" "+obj.name+" has "+obj.legs+" legs.";
   return result;
 }
 ```
-2. [Return to Sanity](https://www.codewars.com/kata/514a7ac1a33775cbb500001e/train/javascript): 
+2. [Return to Sanity](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function mystery() {
   var results = { sanity: "Hello" };
   return results;
 }
 ```
-3. [Object Syntax Debug](https://www.codewars.com/kata/56d8ae9237123036d3001b54/train/javascript): 
+3. [Object Syntax Debug](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 var rooms = {
   first: {
@@ -71,7 +71,7 @@ var rooms = {
 ```
 
 ## Miercoles
-1. [Count Strings in Objects](https://www.codewars.com/kata/565b3542af398bfb50000003/train/javascript): 
+1. [Count Strings in Objects](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function strCount(obj){
   let count=0;
@@ -86,7 +86,7 @@ function strCount(obj){
   return count;
 }
 ```
-2. [Extending JavaScript Objects: Get First & Last Array Element](https://www.codewars.com/kata/581351c40d8f13bc450008b8/train/javascript): 
+2. [Extending JavaScript Objects: Get First & Last Array Element](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 Array.prototype.first=function(){
   return this[0];
@@ -95,7 +95,7 @@ Array.prototype.last=function(){
   return this[this.length-1];
 };
 ```
-3. [Object Oriented Piracy](https://www.codewars.com/kata/54fe05c4762e2e3047000add/train/javascript): 
+3. [Object Oriented Piracy](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function Ship(draft,crew) {
   this.draft = draft;
@@ -105,30 +105,29 @@ function Ship(draft,crew) {
     return (this.draft-this.crew*1.5)>20;
   };
 }
-
 ```
 
 ## Jueves
-1. [Convert a String to a Number!](https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript): 
+1. [Convert a String to a Number!](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 const stringToNumber = function(str){
   let number=parseInt(str);
   return number;
 }
 ```
-2. [Convert a Number to Reversed Arrar of Digits](https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript): 
+2. [Convert a Number to Reversed Arrar of Digits](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function digitize(n) {
   let result=String(n).split("").reverse().map(Number);
   return result;
 }
 ```
-3. [Truthy and Falsy](https://www.codewars.com/kata/595c2988d946a13298000157/train/javascript): 
+3. [Truthy and Falsy](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 const truthy = [-3.14,true,"Eduardo",{},"5"];
 const falsy = [0,false,null,undefined,""];
 ```
-4. [Training JS #4: Basic Data types--Array](https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript): 
+4. [Training JS #4: Basic Data types--Array](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function getLength(arr){
   return arr.length;
