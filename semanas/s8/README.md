@@ -115,8 +115,40 @@ let decodeMorse=function(morseCode){
 ```
 
 ## Miercoles
-1. [Who likes it?](): ``````
-2. [Bit counting](): ``````
+1. [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript): 
+```
+function likes(names) {
+  let result="";
+  if(names.length===0) return "no one likes this";
+  if(names.length===1){
+    result=names[0]+" likes this";
+    return result;
+  }
+  if(names.length===2){
+    result=names[0] +" and "+ names[1]+ " like this";
+    return result;
+  }
+  if(names.length===3){
+    result=names[0] +", "+ names[1] +" and "+ names[2] +" like this";
+    return result;
+  }
+  result=names[0] +", "+ names[1] +" and "+ (names.length-2) +" others like this";
+  return result;
+}
+```
+2. [Bit counting](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript): 
+```
+var countBits = function(n) {
+  let binaryNum=n.toString(2);
+  let bitOneCounter=0;
+  for(let i=0;i<=binaryNum.length-1;i++){
+    if(binaryNum[i]==="1"){
+      bitOneCounter++;
+    }
+  }
+  return bitOneCounter;
+};
+```
 3. [Your order, please](): ``````
 
 ## Jueves
