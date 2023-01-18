@@ -79,9 +79,40 @@ function calculate(num1, operation, num2) {
 ```
 
 ## Martes
-1. [Even or odd](): ``````
-2. [A wolf in sheep's clothing](): ``````
-3. [Decode the morse code](): ``````
+1. [Even or odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript): 
+```
+function evenOrOdd(number) {
+  if(number%2===0) return "Even";
+  return "Odd";
+}
+```
+2. [A wolf in sheep's clothing](https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript): 
+```
+function warnTheSheep(queue) {
+  let wolfPos=queue.indexOf("wolf");
+  let sheepPos=queue.length-(wolfPos+1);
+  if(wolfPos===queue.length-1){
+    return "Pls go away and stop eating my sheep";
+  }     
+  return "Oi! Sheep number "+ sheepPos +"! You are about to be eaten by a wolf!";  
+}
+```
+3. [Decode the morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e/train/javascript): 
+```
+let decodeMorse=function(morseCode){
+  let phrase=[];
+  let words=morseCode.trim().split("   ");
+  let letters=[];
+  for(let i=0;i<words.length;i++){
+    letters=words[i].split(" ");
+    for (let j=0;j<letters.length;j++) {
+      letters[j]=MORSE_CODE[letters[j]];
+    }
+    phrase.push(letters.join(""));
+  }
+  return phrase.join(" ").trim();
+};
+```
 
 ## Miercoles
 1. [Who likes it?](): ``````
