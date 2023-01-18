@@ -62,11 +62,11 @@ function calculate(num1, operation, num2) {
             result=num1*num2;
             break;
         case "/":
-            if(num2==0){
-              return null;
+            if(num2!=0){
+              result=num1/num2;;
             }
             else{
-              result=num1/num2;
+              return null;
             }
             break;
     }
