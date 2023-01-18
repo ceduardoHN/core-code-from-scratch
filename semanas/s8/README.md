@@ -1,6 +1,6 @@
-# Semana 7
+# Semana 8
 ## Lunes
-1. [Training JS #7: if..else and ternary operator](): 
+1. [Training JS #7: if..else and ternary operator](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function saleHotdogs(n){
   if(n<5){
@@ -17,7 +17,7 @@ function saleHotdogs(n){
   }
 }
 ```
-2. [Training JS #8: conditional statement--switch](): 
+2. [Training JS #8: conditional statement--switch](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function howManydays(month){
   var days;
@@ -46,7 +46,7 @@ function howManydays(month){
   return days;
 }
 ```
-3. [Basic Calculator](): 
+3. [Basic Calculator](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function calculate(num1, operation, num2) {
   var result;
@@ -79,14 +79,14 @@ function calculate(num1, operation, num2) {
 ```
 
 ## Martes
-1. [Even or odd](): 
+1. [Even or odd](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function evenOrOdd(number) {
   if(number%2===0) return "Even";
   return "Odd";
 }
 ```
-2. [A wolf in sheep's clothing](): 
+2. [A wolf in sheep's clothing](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function warnTheSheep(queue) {
   let wolfPos=queue.indexOf("wolf");
@@ -97,7 +97,7 @@ function warnTheSheep(queue) {
   return "Oi! Sheep number "+ sheepPos +"! You are about to be eaten by a wolf!";  
 }
 ```
-3. [Decode the morse code](): 
+3. [Decode the morse code](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 let decodeMorse=function(morseCode){
   let phrase=[];
@@ -115,7 +115,7 @@ let decodeMorse=function(morseCode){
 ```
 
 ## Miercoles
-1. [Who likes it?](): 
+1. [Who likes it?](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function likes(names) {
   let result="";
@@ -136,7 +136,7 @@ function likes(names) {
   return result;
 }
 ```
-2. [Bit counting](): 
+2. [Bit counting](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 var countBits = function(n) {
   let binaryNum=n.toString(2);
@@ -149,10 +149,23 @@ var countBits = function(n) {
   return bitOneCounter;
 };
 ```
-3. [Your order, please](): ``````
+3. [Your order, please](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function order(words) {
+  let array=words.split(" ");
+  let sortedArray=[];
+  for(let i=0;i<=array.length;i++){
+    for (let j=0;j<array.length;j++){
+      if(array[j].indexOf(i)>=0){
+        sortedArray.push(array[j]);
+      }
+    }
+  }
+  return sortedArray.join(" ");
+```
 
 ## Jueves
-1. [Countin duplicates](): ``````
-2. [Encript this!](): ``````
-3. [Valid parentheses](): ``````
-4. [Convert string to camel case](): ``````
+1. [Countin duplicates](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+2. [Encript this!](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+3. [Valid parentheses](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+4. [Convert string to camel case](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
