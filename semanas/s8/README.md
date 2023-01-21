@@ -165,7 +165,70 @@ function order(words) {
 ```
 
 ## Jueves
-1. [Countin duplicates](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-2. [Encript this!](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-3. [Valid parentheses](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-4. [Convert string to camel case](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+1. [Countin duplicates](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function duplicateCount(text){
+  let countDupls=0;
+  text=text.toLowerCase();
+  for(let i=0;i<text.length;i++){
+    if(text.indexOf(text[i]) !== text.lastIndexOf(text[i])){
+      countDupls++;
+      let regExp=new RegExp(text[i],"g");
+      text=text.replace(regExp,"");
+      i--;
+    }
+  }
+  return countDupls;
+}
+```
+2. [Encript this!](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function encryptWord(word){
+  if(word.length===1){
+    return word.charCodeAt(0);
+  }
+  const secondLetter=word[1];
+  word=word.replace(word[0],word.charCodeAt(0));
+  word=word.replace(secondLetter,word[word.length-1]);
+  word=word.replace(/\w$/,secondLetter);
+  return word;
+}
+
+var encryptThis=function(text){
+  const textArray=text.split(" ");
+  let result="";
+  textArray.forEach((word) => {
+    result=result+" "+encryptWord(word);
+  });
+  return result.trim();
+};
+```
+3. [Valid parentheses](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function validParentheses(parens) {
+  let validation=0;
+  for(let i=0;i<=parens.length-1;i++){
+    if(parens[i]==="(") validation++;
+    if(parens[i]===")") validation--;
+    if(validation<0){
+      return false;
+    }
+  }
+  return validation==0;
+}
+```
+4. [Convert string to camel case](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function toCamelCase(str){
+  let result="";
+  for(let i=0;i<=str.length-1;i++){
+    if(i!=0 && (str[i-1]==="-" || str[i-1]==="_")){
+      result=result+str[i].toUpperCase();
+    }
+    else if(str[i]!="-" && str[i]!="_"){
+      result=result+str[i];
+    }
+  }
+  return result;
+}
+```
