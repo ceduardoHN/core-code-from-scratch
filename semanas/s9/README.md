@@ -1,6 +1,6 @@
 # Semana 9
 ## Lunes
-1. ("this" is a problem)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: 
+1. ["this" is a problem](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function NameMe(first,last){
     this.firstName=first;
@@ -19,7 +19,7 @@ function processData(data){
   return mult;
 }
 ```
-3. (Stop gninnipS My sdroW!)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: 
+3. [Stop gninnipS My sdroW!](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function spinWords(string){
   let words=string.split(" ");
@@ -33,7 +33,7 @@ function spinWords(string){
 ```
 
 ## Martes
-1. ("this" is an other problem)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: 
+1. ["this" is an other problem](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function NamedOne(first,last){
   this.firstName=first;
@@ -53,15 +53,15 @@ function NamedOne(first,last){
   });
 }
 ```
-2. ("Who likes it?")[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
-3. (Convert string to camel case)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
+2. ["Who likes it?"](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+3. [Convert string to camel case](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
 
 ## Miercoles
-1. (Easy mathematical callback)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
-2. (Moving Zeros To The End)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
-3. (Valid Parentheses)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
+1. [Easy mathematical callback](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+2. [Moving Zeros To The End](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+3. [Valid Parentheses](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
 
 ## Jueves
 
-1. (The Hashtag Generator)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
-2. (String incrementer)[https://www.codewars.com/users/ceduardoHN/completed_solutions]: ``````
+1. [The Hashtag Generator](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+2. [String incrementer](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
