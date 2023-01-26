@@ -8,7 +8,7 @@ function NameMe(first,last){
     this.name=this.firstName +" "+ this.lastName;
 }
 ```
-2. ("Thinkful - List and Loop Drills: Lists of lists")[https://www.codewars.com/users/ceduardoHN/completed_solutions]: 
+2. ["Thinkful - List and Loop Drills: Lists of lists"](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
 function processData(data){
   let mult=1;
