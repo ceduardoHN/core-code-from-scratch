@@ -53,15 +53,104 @@ function NamedOne(first,last){
   });
 }
 ```
-2. ["Who likes it?"](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-3. [Convert string to camel case](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+2. ["Who likes it?"](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function likes(names) {
+  switch(names.length){
+      case 0:
+        return "no one likes this";
+        break;
+      case 1:
+        return names[0]+" likes this";
+        break;
+      case 2:
+        return names[0] +" and "+ names[1] +" like this";
+        break;
+      case 3:
+        return `${names.slice(0,2).join(", ")} and ${names[2]} like this`;
+        break;
+      default:
+        return `${names.slice(0,2).join(", ")} and ${names.length-2} others like this`;
+        break;
+  }
+}
+```
+3. [Convert string to camel case](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function toCamelCase(str){
+  let result="";
+  for(let i=0;i<=str.length-1;i++){
+    if(i!=0 && (str[i-1]==="-" || str[i-1]==="_")){
+      result=result+str[i].toUpperCase();
+    }
+    else if(str[i]!="-" && str[i]!="_"){
+      result=result+str[i];
+    }
+  }
+  return result;
+}
+```
 
 ## Miercoles
-1. [Easy mathematical callback](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-2. [Moving Zeros To The End](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-3. [Valid Parentheses](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+1. [Easy mathematical callback](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function processArray(arr,callback) {
+  let resultArray=[];
+  for(let i=0;i<=arr.length-1;i++){
+    resultArray[i]=callback(arr[i]);
+  }
+  return resultArray;
+}
+```
+2. [Moving Zeros To The End](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function moveZeros(arr) {
+  let zerosArray=[];
+  let noZerosArray=[];
+  for(let i=0;i<=arr.length-1;i++){
+    if(arr[i]===0){
+      zerosArray.push(arr[i]);
+    }
+    else{
+      noZerosArray.push(arr[i]);
+    }
+  }
+  return noZerosArray.concat(zerosArray);  
+}
+```
+3. [Valid Parentheses](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function validParentheses(parens) {
+  let validation=0;
+  for(let i=0;i<=parens.length-1;i++){
+    if(parens[i]==="(") validation++;
+    if(parens[i]===")") validation--;
+    if(validation<0){
+      return false;
+    }
+  }
+  return validation==0;
+}
+```
 
 ## Jueves
 
-1. [The Hashtag Generator](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
-2. [String incrementer](https://www.codewars.com/users/ceduardoHN/completed_solutions): ``````
+1. [The Hashtag Generator](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+
+```
+2. [String incrementer](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
+```
+function incrementString(str){
+  let match=str.match(/\d+$/);
+  if(!match){
+    return str+"1";
+  }
+  let num=match[0];
+  let newNum=(parseInt(num)+1).toString();
+  while(newNum.length<num.length){
+    newNum="0"+newNum;
+  }
+  return str.replace(/\d+$/,newNum);
+}
+```
