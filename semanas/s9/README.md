@@ -137,7 +137,15 @@ function validParentheses(parens) {
 
 1. [The Hashtag Generator](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
-
+function generateHashtag(str){
+  if(str.length===0) return false;
+  let result=str.split(" ")
+    .reduce(
+      (prevVal,currVal)=>(prevVal+=currVal.charAt(0).toUpperCase()+currVal.slice(1)),"#"
+    );  
+  if(result.length>140) return false;
+  return result;
+}
 ```
 2. [String incrementer](https://www.codewars.com/users/ceduardoHN/completed_solutions): 
 ```
