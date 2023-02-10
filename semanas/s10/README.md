@@ -1,2 +1,2 @@
-Enlace al repositorio:
+Enlace al proyecto:
 [MiniCalculator](https://github.com/ceduardoHN/MiniCalculadora)
