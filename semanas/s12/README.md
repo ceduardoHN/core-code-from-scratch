@@ -18,5 +18,14 @@
 ### 3
 [Node.JS Module System](/ejercicios/ModuleSystem.md) <br>
 ## Miercoles
-
+### 0
+1. Un servidor es una computadora o un conjunto de ellas que sirven para atender peticiones de usuarios/clientes y devolver una respuesta de acuerdo a dicha peticion.
+2. Un usuario o usuarios que solicitan servicios/hacen peticiones; normalmente son peticiones sobre datos, informacion en especifico o cosas parecidas.
+3. Un servidor es una computadora, pero no convencional. Esto es debido a que su principal funcion es responder a las peticiones de los clientes, y no cumplir con caracteristicas como ejecutar programas de escritorio, ser amigables al usuario, entre otros.
+4. Algunas similitudes entre un modelo cliente-servidor y la comunicacion humana se basa en que cuando una persona hace una pregunta a otra(s) persona(s), en teoria esa(s) otra(s) persona(s) trata de dar una respuesta lo mas coherente posible, segun sus conocimientos, los cuales en el caso de un servidor serian los datos y recursos que estan a su disposicion.
+5. El modelo cliente-servidor es aplicable en otros lugares, aparte de la web. Por ejemplo un servidor de correo electronico o servidor de base de datos.
+### 1
+### 2
+### 3
+### 4
 ## Jueves
