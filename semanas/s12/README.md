@@ -13,8 +13,10 @@
 3. Se usan el ```export``` e ```import```, los cuales permiten hacer un codigo de nuestro programa publico y traer codigo publico a nuestro programa, respectivamente.
 4. A diferencia de los módulos CommonJS, que se basan en exportaciones e importaciones, los ESModules usan la palabra clave ```module```.
 5. ESModule y CommonJS.
+### 2
+[Node.JS Hello World](/ejercicios/Hello_World_JS.md) <br>
 ### 3
-### 4
+[Node.JS Module System](/ejercicios/ModuleSystem.md) <br>
 ## Miercoles
 
 ## Jueves
