@@ -47,12 +47,19 @@
 ### 4
 <b>3.</b> Tambien trabaja con las API HTTP, SOAP y GraphQL. Una de las alternativas mas famosas a Postman es Apigee; esta plataforma ayuda a desarrollar y administrar las API mediante la presentación posterior de servicios con un proxy.<br>
 ## Jueves
+### 0
 Creacion del Proyecto:<br>
 ![imagen](https://user-images.githubusercontent.com/116420679/224551336-cdec8ea5-cd2e-4371-b7f6-6b3d0a2517e1.png)
 Instalacion de la dependencia "Express.JS" y ejecucion del programa:<br>
 ![imagen](https://user-images.githubusercontent.com/116420679/224551424-f7a1e6df-6b9e-464f-b196-23b802cf85ca.png)
-![imagen](https://user-images.githubusercontent.com/116420679/224551531-1dc41dc1-bea4-430e-a32d-616c536d2f94.png)
+![imagen](https://user-images.githubusercontent.com/116420679/224551531-1dc41dc1-bea4-430e-a32d-616c536d2f94.png)<br>
 Codigo del programa:<br>
 ![imagen](https://user-images.githubusercontent.com/116420679/224551490-b3f733ad-773d-4bf9-bead-0b807f6b07ba.png)
+### 1
+Ejecucion del Programa:<br>
+![imagen](https://user-images.githubusercontent.com/116420679/224554861-5aa4c153-cd1a-4dc6-86c8-91f971257075.png)
+Codigo del programa:<br>
+![imagen](https://user-images.githubusercontent.com/116420679/224554908-14ec9554-7c39-451c-bf7c-5eee4ca24b6a.png)
+### 2
 
 
