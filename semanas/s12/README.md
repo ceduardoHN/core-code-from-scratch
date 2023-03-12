@@ -37,7 +37,7 @@
 <b>3.</b> Las API cuando surgieron, se usanban normalmente como biblioteca para los sistemas operativos. Por lo que casi siempre estaban habilitadas localmente en los sistemas en los que operaban.<br>
 <b>4.</b> Una comunicacion estructurada entre dos programas es fundamental ya que esto rige a ambos la forma de hacer preguntas/peticiones y dar una respuesta a dichas preguntas.<br>
 <b>5.</b> Las API son estándares para el intercambio de datos de aplicaciones, al igual que los protocolos son estándares para el intercambio de datos de red.<br>
-<b>6. La principal que conozco es Google Maps, que nos permite acceder a distintas funcionalidades como lo son marcadores, asignación de rutas, trazar sectores dentro de un mapa, entre otras.</b>
+<b>6.</b> La principal que conozco es Google Maps, que nos permite acceder a distintas funcionalidades como lo son marcadores, asignación de rutas, trazar sectores dentro de un mapa, entre otras.
 ### 3
 <b>1.</b><br>
 <b>2.</b><br>
