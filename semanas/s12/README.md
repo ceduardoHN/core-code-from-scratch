@@ -57,9 +57,9 @@ Codigo del programa:<br>
 ![imagen](https://user-images.githubusercontent.com/116420679/224551490-b3f733ad-773d-4bf9-bead-0b807f6b07ba.png)
 ### 1
 Ejecucion del Programa:<br>
-![imagen](https://user-images.githubusercontent.com/116420679/224554861-5aa4c153-cd1a-4dc6-86c8-91f971257075.png)
+![imagen](https://user-images.githubusercontent.com/116420679/224561683-cd5bdd2a-1508-4a6c-b907-79f18b11d04d.png)
 Codigo del programa:<br>
-![imagen](https://user-images.githubusercontent.com/116420679/224554908-14ec9554-7c39-451c-bf7c-5eee4ca24b6a.png)
+![imagen](https://user-images.githubusercontent.com/116420679/224561619-152c197a-4506-484b-83ac-90b23b83320c.png)
 ### 2
 
 
