@@ -39,13 +39,11 @@
 <b>5.</b> Las API son estándares para el intercambio de datos de aplicaciones, al igual que los protocolos son estándares para el intercambio de datos de red.<br>
 <b>6.</b> La principal que conozco es Google Maps, que nos permite acceder a distintas funcionalidades como lo son marcadores, asignación de rutas, trazar sectores dentro de un mapa, entre otras.
 ### 3
-<b>1.</b><br>
-<b>2.</b><br>
-<b>3.</b><br>
-<b>4.</b><br>
-<b>5.</b>
+<b>1.</b> JSON(JavaScript Object Notation) es un formato ligero de intercambio de datos. Se basa en un subconjunto del estándar de lenguaje de programación JavaScript y ademas es independiente de cualquier lenguaje de programacion.<br>
+<b>2.</b> REST (Representational State Transfer) es un estilo de arquitectura para proporcionar estándares entre sistemas informáticos en la web, lo que facilita que los sistemas se comuniquen entre sí.<br>
+<b>3.</b> Los recursos son los sustantivos/verbos de la Web ya que describen cualquier objeto, documento o cosa que pueda necesitar almacenar o enviar a otros servicios.<br>
+<b>4.</b> REST se refiere a un conjunto de atributos de un estilo de arquitectura particular, mientras que HTTP es un protocolo bien definido que exhibe muchas características de un sistema RESTful.<br>
+<b>5.</b> No es lo mismo ya que REST es un estilo de arquitectura, mientras que HTTP es un protocolo de intercambio de informacion.
 ### 4
-<b>1.</b><br>
-<b>2.</b><br>
-<b>3.</b>
+<b>3.</b> Tambien trabaja con las API HTTP, SOAP y GraphQL. Una de las alternativas mas famosas a Postman es Apigee; esta plataforma ayuda a desarrollar y administrar las API mediante la presentación posterior de servicios con un proxy.<br>
 ## Jueves
