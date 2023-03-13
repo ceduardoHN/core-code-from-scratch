@@ -1,2 +1,2 @@
 # Proyecto Final
-[cc-infinity-gauntlet](https://github.com/ceduardoHN/cc-infinity-gauntlet)
+[Project](https://github.com/ceduardoHN/tesseract-frontend)
